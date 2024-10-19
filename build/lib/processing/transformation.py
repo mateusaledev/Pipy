@@ -1,5 +1,3 @@
-
-
 from skimage.transform import resiza
 
 def resize_image(image, proportion):

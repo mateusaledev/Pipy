@@ -2,14 +2,14 @@ Metadata-Version: 2.1
 Name: package_name
 Version: 0.0.1
 Summary: image processing package using skimage
-Home-page: https://github.com/Joao-Guilherme88/Guinder
+Home-page: https://github.com/Joao-Guilherme88/Pypi
 Author: Joao Guilherme
 Author-email: joaoguilhermegs00@gmail.com
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Requires-Dist: matplotlib
 Requires-Dist: numpy
-Requires-Dist: scikit-image
+Requires-Dist: scikit-image>=0.16.1
 
 # image_processing
 

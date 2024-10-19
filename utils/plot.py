@@ -12,7 +12,7 @@ def plot_result(*args):
     names_list = ['Image ({})'.format(i) for i in range(1, number_images+1)] 
 
     for ax, name, image in zip(axis, names_list, args):
-        ax.imshow(image, cmap='gray')  '
+        ax.imshow(image, cmap='gray')
         ax.set_title(name)
         ax.axis('off')  
     fig.tight_layout()

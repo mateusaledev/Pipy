@@ -1,6 +1,4 @@
-
-
-from setuptools import setup, find_packages # type: ignore
+from setuptools import setup, find_packages 
 
 with open("README.md", "r") as f:
     page_description = f.read()
@@ -16,7 +14,7 @@ setup(
     description="image processing package using skimage",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Joao-Guilherme88/Guinder",
+    url="https://github.com/Joao-Guilherme88/Pypi",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',

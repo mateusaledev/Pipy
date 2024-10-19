@@ -5,3 +5,9 @@ package_name.egg-info/SOURCES.txt
 package_name.egg-info/dependency_links.txt
 package_name.egg-info/requires.txt
 package_name.egg-info/top_level.txt
+processing/__init__.py
+processing/combination.py
+processing/transformation.py
+utils/__init__.py
+utils/io.py
+utils/plot.py
